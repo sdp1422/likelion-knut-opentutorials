@@ -1,0 +1,20 @@
+
+third 모델 명령어
+
+from app.models import Address, House
+House.objects.all()
+a = Address.objects.get(id=5)
+
+In [4]: a
+Out[4]: <Address: 부산시청>
+
+In [5]: a.house_set.all()
+Out[5]: <QuerySet [<House: 101부산시청>, <House: 102부산시청>]>
+
+In [6]: h = House.objects.get(number=101)
+
+In [7]: h
+Out[7]: <House: 101부산시청>
+
+In [8]: h.address
+Out[8]: <Address: 부산시청>

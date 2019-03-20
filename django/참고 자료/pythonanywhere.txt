@@ -1,0 +1,14 @@
+1. pythonanywhere 회원가입 & 로그인
+   가. 가상환경 만들기 (virtualenv)
+   나. 장고 설치 (pip install django)
+
+2. 장고 프로젝트 -> GITHUB 업로드 (PUSH)
+   가. GITHUB 가입
+   나. Repository (저장소) 생성
+
+3. GITHUB -> pythonanywhere 다운로드 (PULL)
+   가. 첫 다운로드 GIT clone
+   나. 두번째 이후 다운로드 GIT pull
+
+4. WEB 메뉴 -> WSGI 설정
+

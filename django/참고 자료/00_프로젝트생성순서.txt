@@ -1,0 +1,21 @@
+1 - 프로젝트 생성 
+    (django-admin startproject first)
+2 - 앱 생성
+    (python manage.py startapp app)
+3 - 주소 생성 (urls.py)
+4 - 함수 생성 (views.py)
+5 - 데이터베이스에서 사용할 테이블(모델) 생성
+    models.py
+
+6 - 앱 등록 (settings.py)
+7 - 데이터베이스 적용1 (python manage.py makemigrations)
+    데이터베이스 적용2 (python manage.py migrate)
+8 - 관리자 계정 생성 (python manage.py createsuperuser)
+
+9 - 관리자 사이트에서 데이터 관리하기 위해 테이블 등록
+    (admin.py)
+
+
+
+
+
